@@ -1,0 +1,25 @@
+* {margin: 0; padding: 0; border: 0;}
+
+.leftMain
+{
+    height: 100vh;
+    background-color: skyblue;
+    flex: 3;
+}
+
+.leftContainer
+{
+    position: absolute;
+    top: 55vh;
+    /* left: 5vw; */
+    margin-left: 2vw;
+    font-weight: bold;
+    font-size: 2vw;
+
+}
+
+.leftMain h1
+{
+    font-size: 4vw;
+    margin-bottom: 5vh;
+}

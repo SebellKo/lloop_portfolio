@@ -1,0 +1,53 @@
+* {margin: 0; padding: 0; border: 0;}
+ul
+{
+    list-style-type: none;
+    position: relative;
+}
+
+
+.rightMain
+{
+    height: 100vh;
+    flex: 7;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#container
+{
+    position: absolute;
+    z-index: 3;
+}
+
+ul li
+{
+    margin-top: -10vh;
+    margin-left: -10vw;
+    position: absolute;
+}
+
+ul li div:hover
+{
+    transition: all 0.5s linear 0.2s;
+    transform: rotateZ(20deg);
+}
+
+.showWindow
+{
+    width: 25vw;
+    height: 25vh;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.showWindow button
+{
+    margin: 0.5vw 0.5vw 0;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
